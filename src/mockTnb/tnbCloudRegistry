@@ -1,0 +1,27 @@
+export const MOCK_ACCOUNT_DATA = {
+  "120034005600": {
+    accountNumber: "120034005600",
+    label: "Residential Grid Core (Home)",
+    type: "Standard",
+    monthlyUsage: [420, 390, 310, 280, 340, 490, 520, 550, 380, 290, 330, 460],
+    emissionsFactor: 0.584
+  },
+  "120099008800": {
+    accountNumber: "120099008800",
+    label: "Rooftop Solar (Office)",
+    type: "Solar",
+    monthlyUsage: [210, 230, 280, 290, 260, 220, 190, 210, 240, 270, 250, 200],
+    emissionsFactor: 0.0
+  }
+};
+
+export const MOCK_USERS_DB = {
+  "Fakrul": {
+    username: "Fakrul",
+    password: "password123",
+    linkedAccounts: ["120034005600"]
+  }
+};
+
+
+//"120099008800"
