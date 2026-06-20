@@ -1,0 +1,27 @@
+import React from 'react';
+
+export default function AiForecasterPanel({ isAiLoading, aiAnalysis, triggerAiAnalysis }) {
+  return (
+    <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6 font-mono">
+      <div className="flex justify-between items-center">
+        <h3 className="text-sm font-bold uppercase text-white">Anthropic Interface Matrix</h3>
+        <button onClick={triggerAiAnalysis} disabled={isAiLoading} className="bg-gradient-to-r from-teal-500 to-cyan-500 text-slate-950 px-4 py-2 text-xs font-bold uppercase rounded-lg disabled:opacity-40">
+          {isAiLoading ? 'Analyzing...' : '⚡ Query Claude Framework'}
+        </button>
+      </div>
+
+      {aiAnalysis && (
+        <div className="space-y-4 text-xs animate-fadeIn">
+          <div className="bg-slate-950 p-4 rounded-lg border border-slate-800">
+            <span className="text-teal-400 font-bold uppercase block mb-1">🤖 Ingestion Summary</span>
+            <p className="text-slate-300">{aiAnalysis.summary}</p>
+          </div>
+          <div className="bg-slate-950 p-4 rounded-lg border border-slate-800">
+            <span className="text-cyan-400 font-bold uppercase block mb-1">📈 Forecast Run</span>
+            <p className="text-slate-300">{aiAnalysis.forecasting}</p>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
