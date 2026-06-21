@@ -11,7 +11,7 @@
 * Zainab Hana
 
 ## Technologies Used
-* **Frontend**: React.js, Tailwind CSS
+* **Frontend**: React.js, Tailwind CSS,Vite
 * **API**: Google Gemini API (2.5 Flash)
 * **Data Strategy**: A cloud database emulator (tnbCloudRegistry.js) built using clean JavaScript ES6 object mappings to model real, production-ready utility API responses without needing weeks of legal API approvals.
 
