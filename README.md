@@ -59,7 +59,7 @@ npm install
 Open src/components/DashboardMain.jsx
 
 ### 5. Launch the application
-npm start
+npm run dev
 
 ### 6. View the Dashboard
 
