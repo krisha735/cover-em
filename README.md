@@ -19,7 +19,7 @@
 Company registered as Designated Energy Consumers (DES)
 
 ## Challenge and Approach
-## ⚡ The Challenge
+## The Challenge
 - **Greenwashing risk**: REM-registered companies may be fined if they cannot prove sustainability claims.  
 - **Redundant / wasteful usage**: Excess electricity consumption undermines national energy efficiency goals.  
 - **Threshold enforcement (Act 861)**: DES (≥ RM2.4M annual spend) must comply or face fines up to RM100,000 and imprisonment.  
@@ -27,13 +27,13 @@ Company registered as Designated Energy Consumers (DES)
 
 ---
 
-## 🚀 Our Approach
+## Our Approach
 - **Real-Time Telemetry**: Dynamic engine aggregating multi-source energy data.  
 - **AI Integration**: Google Gemini translates raw telemetry into actionable, human-readable optimization advice.  
 - **Print Optimization**: Custom CSS `@media print` directives enable seamless, multi-page audit report generation without data loss.  
 
 ---
-## 🚀 Usage Instructions
+## Usage Instructions
 
 To run **C.OVER** locally, you will need to have a development environment set up on your machine.
 
